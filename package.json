@@ -1,9 +1,16 @@
 {
-  "name": "VisaAssessmentChecker",
+  "name": "BookVISAHealthAssessment",
   "version": "1.0.0",
   "main": "index.ts",
   "author": "Yun Feng",
   "license": "MIT",
+  "keywords": [
+    "bupa",
+    "puppeteer",
+    "visa",
+    "assessment",
+    "appointment"
+  ],
   "scripts": {
     "start": "npx ts-node index.ts"
   },
