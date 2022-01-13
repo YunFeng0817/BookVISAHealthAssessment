@@ -55,6 +55,9 @@ async function check() {
     await page.click(".ui-datepicker-next.ui-corner-all");
     await page.waitForTimeout(100);
   }
+  await page.click("#btnCancelConfirm");
+  await page.waitForSelector(".confirmon-button--yes");
+  await page.click(".confirmon-button--yes");
   await browser.close();
   if (result.length > 0) console.log(result);
   return result.length > 0;
